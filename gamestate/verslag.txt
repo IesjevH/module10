@@ -1,0 +1,6 @@
+De leukste games vond ik airhockey en beer pong. 
+
+Ik heb deze games gekozen, omdat ik deze het leukst vond. Ik vond airhockey ook wel inspirerend,
+want deze lijkt een beetje op pong. Het score systeem is precies hoe ik het wil doen bij mijn pong game.
+Bij mijn pong game wil ik namelijk ook een scorebord maken uiteraard, maar dan dat je maar een bepaald
+aantal punten kan behalen en dan ga je naar het volgende level.
