@@ -8,7 +8,7 @@ var DIRECTION = {
 };
  
 var rounds = [5, 5, 3, 3, 2];
-var colors = ['#1abc9c', '#2ecc71', '#3498db', '#8c52ff', '#9b59b6'];
+var colors = ['#ffdab9', '#fbc4ab', '#f8ad9d', '#f4978e', '#f08080'];
  
 // The ball object (The cube that bounces back and forth)
 var Ball = {
@@ -35,7 +35,7 @@ var Ai = {
             y: (this.canvas.height / 2) - 35,
             score: 0,
             move: DIRECTION.IDLE,
-            speed: 8
+            speed: 9
         };
     }
 };
