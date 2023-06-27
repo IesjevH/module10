@@ -7,8 +7,8 @@ var DIRECTION = {
     RIGHT: 4
 };
  
-var rounds = [5, 5, 3, 3, 2];
-var colors = ['#ffdab9', '#fbc4ab', '#f8ad9d', '#f4978e', '#f08080'];
+var rounds = [5,4, 3, 2, 2];
+var colors = ['#bc7c9c' , '#d62839','#7a5980','#175676'];
  
 // The ball object (The cube that bounces back and forth)
 var Ball = {
@@ -16,7 +16,7 @@ var Ball = {
         return {
             width: 18,
             height: 18,
-            x: (this.canvas.width / 2) - 9,
+            x: (this.canvas.width /2) - 9,
             y: (this.canvas.height / 2) - 9,
             moveX: DIRECTION.IDLE,
             moveY: DIRECTION.IDLE,
@@ -59,7 +59,7 @@ var Game = {
         this.running = this.over = false;
         this.turn = this.ai;
         this.timer = this.round = 0;
-        this.color = '#8c52ff';
+        this.color = '#cf9893';
  
         Pong.menu();
         Pong.listen();
@@ -196,7 +196,7 @@ var Game = {
                 // If there is another round, reset all the values and increment the round number.
                 this.color = this._generateRoundColor();
                 this.player.score = this.ai.score = 0;
-                this.player.speed += 0.5;
+                this.player.speed += 2;
                 this.ai.speed += 1;
                 this.ball.speed += 1;
                 this.round += 1;
